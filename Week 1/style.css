@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=MedievalSharp&family=Noto+Sans+Old+Italic&family=Raleway:ital,wght@0,200;1,200&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+.changer {
+    filter: sepia(100%) hue-rotate(190deg) saturate(500%);
+}
+
+body {
+    font-family: inter;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    color: #7fdbff;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    color: #7fdbff;
+    font-family: MedievalSharp;
+
+
+}
+
+.logotext {
+    font-size: clamp(1.5rem, 2vw + 1.8rem, 3rem);
+    /* Minimum, preferred, maximum */
+}
+
+header nav {
+    font-size: clamp(1.5rem, 2vw + 1.5rem, 2rem);
+}
+
+header nav a {
+    padding-right: 15px;
+    color: #7fdbff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #ffb93c;
+    text-decoration: line-through;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    background: url(Assets/hero-image.jpg) rgba(0, 77, 157, 0.9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-blend-mode: multiply;
+}
+
+.hero p {
+    padding: 40px;
+    color: #7fdbff;
+    font-family: MedievalSharp;
+    font-size: clamp(1.5rem, 2vw + 3rem, 8rem);
+    text-align: center;
+
+}
+
+.home-about {
+    width: 100%;
+    background-color: #000000;
+    color: #7fdbff;
+    text-align: right;
+    padding: 7rem;
+}
+
+h2 {
+    font-family: MedievalSharp;
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-size: 2rem;
+}
+
+/*
+.man-speak {
+  width: 100%;
+  display: flex;
+  height: 500px;
+  margin-bottom: 50px;
+}
+
+.man-speak div {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.man-box {
+  padding: 0 20px 0 20px;
+}
+
+.man-image {
+  background-image: url(medieval-man-on-grass.jpg);
+  background-size: cover;
+  background-position: center 40%;
+}
+
+*/
+
+.man-speak {
+    overflow: hidden;
+    text-align: left;
+}
+
+.man-speak div {
+    height: 450px;
+    width: 50%;
+    float: left;
+}
+
+.man-box {
+    padding: 5%;
+    background: rgba(0, 77, 157, 0.9);
+    background-blend-mode: multiply;
+    background-size: cover;
+    color: #7fdbff;
+}
+
+.man-image {
+    background: url(Assets/Medieval-man-on-grass.jpg) rgba(0, 77, 157, 0.9);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center 40%;
+}
+
+.her-response {
+    background-color: black;
+    padding: 100px;
+    text-align: center;
+
+}
+
+.lovers {
+    overflow: hidden;
+}
+
+.lovers img {
+    float: left;
+    width: 33.333%;
+    height: 500px;
+    object-fit: cover;
+    object-position: 50% 40%;
+}
+
+.location {
+    gap: 20px;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 77, 157, 0.9);
+}
+
+.location a {
+    color: #7fdbff;
+    text-decoration: none;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    background-color: #000000;
+    color: #ff3cde
+}
+
+
+.logos img {
+    width: 70px;
+}
+
+.caveat {
+    font-size: 1rem;
+    margin: 20px 10px;
+}
+
+footer {
+    font-family: MedievalSharp;
+    color: #b0bfdb;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #000000;
+}
+
+@media (max-width: 637px) {
+
+    header nav {
+        font-size: clamp(1rem, 1vw + 1rem, 1.3rem);
+    }
+
+    header,
+    .logos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+
+    }
+
+    body,
+    blockquote {
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }
+
+    .home-about,
+    .her-response {
+        text-align: center;
+        padding: 2.5rem 2rem 3rem 2rem;
+    }
+}
