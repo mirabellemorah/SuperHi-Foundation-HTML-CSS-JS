@@ -1,0 +1,79 @@
+html {
+  font-size: 62.5%;
+  /* Sets root to 10px */
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+body {
+  font-family: Cooper Hewitt;
+  font-size: 1.6rem;
+  /* Equivalent to 16px */
+  line-height: 1.5;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+header {
+  position: fixed;
+  margin: 4rem;
+}
+
+section {
+  height: 100vh;
+  background-position: center center;
+  background-image: url(Assets/sally_8.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.img2 {
+  background-image: url(Assets/sally_1.jpg);
+}
+
+.img3 {
+  background-image: url(Assets/sally_2.jpg);
+}
+
+.img4 {
+  background-image: url(Assets/sally_3.jpg);
+}
+
+footer {
+  position: fixed;
+  bottom: 4rem;
+  left: 4rem;
+}
+
+footer a {
+  margin-right: 1rem;
+}
+
+a:hover {
+  color: #ffdc00;
+}
+
+/* 
+  @media (max-width: 600px) {
+   section {
+    height: 90vh;
+    background-size: contain;
+  }
+  }
+  */
+
+@media (max-width: 600px) {
+  section {
+    background-attachment: scroll;
+    height: 100vh;
+
+  }
+}
