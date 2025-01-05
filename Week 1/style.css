@@ -201,6 +201,9 @@ footer {
     background-color: #000000;
 }
 
+
+/* MOBILE STYLES */
+
 @media (max-width: 637px) {
 
     header nav {
