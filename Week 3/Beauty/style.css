@@ -1,0 +1,190 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Cooper Hewitt;
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: #47353a;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 20px;
+    color: #004d9d;
+    background-color: rgba(255, 255, 255, 0.17);
+    box-shadow: 0 1px 5px 2px;
+    /* Specify a single box-shadow using:
+  
+  Two, three, or four <length> values.
+  
+  If only two values are given, they are interpreted as <offset-x> and <offset-y> values.
+  If a third value is given, it is interpreted as a <blur-radius>.
+  If a fourth value is given, it is interpreted as a <spread-radius>.
+  Optionally, the inset keyword.
+  
+  Optionally, a <color> value.
+  
+  To specify multiple shadows, provide a comma-separated list of shadows.
+  
+   */
+    overflow: hidden;
+    /* add overflow to float elements to put the header back in shape*/
+}
+
+header h1 {
+    float: left;
+    font-weight: 700;
+}
+
+header nav {
+    float: right;
+}
+
+header nav a {
+    color: #004d9d;
+    text-decoration: none;
+    margin: 1.5rem;
+}
+
+.hero {
+    background-image: url(Assets/suad-kamardeen-pn2-F5lKM-U-unsplash.jpg);
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: center;
+}
+
+.hero div {
+    max-width: 520px;
+    margin-right: 40px;
+    margin-left: auto;
+    color: white;
+    padding: 20px 20px;
+}
+
+.hero h2 {
+    font-family: Cooper Hewitt;
+    font-size: 10rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-family: Cooper Hewitt;
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.models {
+    overflow: hidden;
+}
+
+.models img {
+    float: left;
+    width: 33.333%;
+    height: 250px;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+.quotes {
+    overflow: hidden;
+}
+
+.quotes div {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 40px;
+}
+
+.quotes img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
+
+.bluebg {
+    background-color: rgba(226, 123, 95, 0.37);
+}
+
+.quotes blockquote {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.hero.hero2 {
+    background-image: url(Assets/annie-spratt-yrzBgqapG1I-unsplash.jpg);
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(97, 153, 128, 0.39);
+    color: #ffffff;
+    font-weight: 600;
+}
+
+footer {
+    font-weight: 700;
+    padding: 20px 20px;
+    color: #ffffff;
+    background-color: #333333;
+    text-align: center;
+}
+
+@media (max-width: 866px) {
+    .logos {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 670px) {
+
+    header h1,
+    header nav {
+        float: none;
+        text-align: center;
+        margin: 10px 5px 0 0;
+    }
+
+    header {
+        background-color: rgba(255, 255, 255, 0.87);
+    }
+
+    header nav a {
+        margin: 0px 5px 0 5px;
+    }
+
+    .hero {
+        background-size: cover;
+        background-position: 27% 0;
+    }
+
+    .hero h2 {
+        font-size: 6rem;
+        font-weight: 700;
+        line-height: 1;
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        font-size: 2rem;
+    }
+
+    .quotes div {
+        width: auto;
+        float: none;
+    }
+}

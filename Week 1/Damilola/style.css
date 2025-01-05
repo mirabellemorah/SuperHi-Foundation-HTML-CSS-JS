@@ -86,7 +86,7 @@ footer {
     position: fixed;
     width: 100%;
     top: 10%;
-    right: -100%%;
+    right: -100%;
     display: flex;
     justify-content: center;
 }
