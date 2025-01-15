@@ -23,7 +23,7 @@ header {
 header a {
     text-decoration: none;
     color: #000;
-    margin-right: 15px;
+    margin: 7px;
 }
 
 header a:hover {
@@ -170,7 +170,6 @@ footer {
     }
 }
 
-
 @media screen and (max-width: 670px) {
 
     .store {
@@ -183,9 +182,8 @@ footer {
     }
 
     .hero {
-        background-position: center;
-        height: 40vh;
-
+        background-position: 71% 50%;
+        height: 80vh;
     }
 
     .about {
@@ -224,7 +222,7 @@ footer {
     }
 
     header {
-        font-size: 12px;
+        font-size: 10px;
         padding: 15px;
     }
 
