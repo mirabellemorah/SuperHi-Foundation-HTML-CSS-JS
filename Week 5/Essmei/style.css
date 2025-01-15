@@ -103,7 +103,7 @@ header a {
     display: flex;
     flex-wrap: wrap;
     min-height: 70vh;
-align-content: flex-start;
+    align-content: flex-start;
 }
 
 .product {
