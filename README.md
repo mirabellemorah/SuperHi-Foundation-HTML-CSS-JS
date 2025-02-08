@@ -15,7 +15,6 @@ social ventures. Before this, I didn't know how to code such websites.
 ![Northern](https://github.com/user-attachments/assets/31784a25-277b-4826-a976-bebb51429c4f)
 ![Medieval](https://github.com/user-attachments/assets/94397013-2499-4284-8e2b-5ea63ca870d5)
 ![hexaggon](https://github.com/user-attachments/assets/9efc6354-c0e9-4f6b-b187-474a62022170)
-![foundation css](https://github.com/user-attachments/assets/4d2ef47d-fe18-41f2-bbde-207aeb15e1ed)
 ![essmei](https://github.com/user-attachments/assets/f5039576-a40c-4dfd-b40c-c75ebf0c3f70)
 ![Damilola](https://github.com/user-attachments/assets/f90e9c12-c2b5-42ac-bc18-2f07dcc41cf2)
 ![Chop life](https://github.com/user-attachments/assets/7761865e-a2d9-436f-87df-0427e856224a)
